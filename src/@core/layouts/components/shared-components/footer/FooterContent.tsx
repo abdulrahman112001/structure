@@ -26,7 +26,7 @@ const FooterContent = () => {
         </Box>
         {` by `}
         <LinkStyled target='_blank' href='https://pixinvent.com/'>
-          Pixinvent
+         Glowrank
         </LinkStyled>
       </Typography>
       {hidden ? null : (

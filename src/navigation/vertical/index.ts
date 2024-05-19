@@ -31,6 +31,7 @@ const navigation = (): VerticalNavItemsType => {
     {
       sectionTitle: 'Apps & Pages'
     },
+
     // {
     //   title: 'Email',
     //   icon: 'mdi:email-outline',
@@ -54,6 +55,7 @@ const navigation = (): VerticalNavItemsType => {
           title: 'Srta City Cluster',
           path: '/apps/invoice/list'
         },
+
         // {
         //   title: 'Preview',
         //   path: '/apps/invoice/preview'
@@ -76,6 +78,7 @@ const navigation = (): VerticalNavItemsType => {
           title: 'List',
           path: '/apps/user/list'
         },
+
         // {
         //   title: 'View',
         //   children: [
@@ -103,6 +106,7 @@ const navigation = (): VerticalNavItemsType => {
         // }
       ]
     }
+    
     // {
     //   title: 'Roles & Permissions',
     //   icon: 'mdi:shield-outline',

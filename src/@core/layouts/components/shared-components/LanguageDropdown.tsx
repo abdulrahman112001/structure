@@ -51,6 +51,7 @@ const LanguageDropdown = ({ settings, saveSettings }: Props) => {
             }
           }
         },
+        
         // {
         //   text: 'French',
         //   menuItemProps: {

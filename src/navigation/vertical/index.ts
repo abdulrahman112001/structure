@@ -54,7 +54,7 @@ const navigation = (): VerticalNavItemsType => {
         {
           title: 'Srta City Cluster',
           path: '/apps/invoice/list'
-        },
+        }
 
         // {
         //   title: 'Preview',
@@ -77,7 +77,7 @@ const navigation = (): VerticalNavItemsType => {
         {
           title: 'List',
           path: '/apps/user/list'
-        },
+        }
 
         // {
         //   title: 'View',
@@ -105,8 +105,23 @@ const navigation = (): VerticalNavItemsType => {
         //   ]
         // }
       ]
-    }
-    
+    },
+    {
+      title: 'Projects',
+      icon: 'mdi:account-outline',
+      path: '/apps/project'
+    },
+      {
+      title: 'Price Plan',
+      icon: 'mdi:format-letter-case',
+      path: '/apps/pricePlan'
+    },
+       {
+      path: '/apps/allModule',
+      icon: 'mdi:shield-outline',
+      title: 'ALL MODULES'
+    },
+
     // {
     //   title: 'Roles & Permissions',
     //   icon: 'mdi:shield-outline',
